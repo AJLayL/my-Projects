@@ -25,6 +25,7 @@ In Arduino IDE, go to Sketch → Include Library → Manage Libraries and instal
 
 PubSubClient
 WiFi (comes preinstalled)
+
 3. Configure WiFi and MQTT Broker Credentials
 Modify secrets.h or uncomment and replace placeholders in the code:
 ```cpp
