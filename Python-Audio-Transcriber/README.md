@@ -15,13 +15,14 @@ Ensure you have Python installed (≥3.7). Then install the required dependencie
 1. Run the script:
 ```sh
     pip install tkinter speechrecognition pydub python-docx
+```
 Additionally, install ffmpeg (required for pydub to process audio):
-
 Windows: Download ffmpeg.exe from https://ffmpeg.org/download.html and add it to the system PATH.
 Usage
 Run the script:
 ```sh
     python transcriber.py
+```
 Click the "Choose Audio File" button to select an MP3 or M4A file.
 The app will transcribe the audio and save the text as a .docx file in the same directory.
 Dependencies
