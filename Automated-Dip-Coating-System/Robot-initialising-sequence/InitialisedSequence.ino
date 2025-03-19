@@ -1,4 +1,4 @@
-// this is the Initialis=zing phase of the dip coating machine.
+// this is the Initializing phase of the dip coating machine.
 // This will help us get the esp32 to  translate step to height.
 
 //define pins
