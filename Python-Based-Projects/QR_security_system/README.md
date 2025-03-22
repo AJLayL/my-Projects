@@ -44,6 +44,7 @@ Install the required dependencies using pip:
 
 ---
 ## File Structure
+```
 QR_Access_System/
 │── mdevice_ain.py                 # Runs the GUI application
 │── qr_code_scanner.py      # QR code scanning module
@@ -55,7 +56,7 @@ QR_Access_System/
 │   ├── test*.png           # Dynamically generated QR codes
 │   ├── Residential_confirmation_1.txt  # Stores generated QR data
 │   ├── Visitor_confirmation_2.txt      # Stores scanned QR data
-
+```
 
 
 ---
