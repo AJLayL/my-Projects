@@ -19,7 +19,7 @@ pip install pyttsx3 keyboard
 ## How to Use
 1. Run the script in a terminal or command prompt:
    ```bash
-   python script.py
+   python main.py
    ```
 2. Enter the file path containing the text to be read when prompted.
 3. The script will read the text aloud.

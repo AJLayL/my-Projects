@@ -33,7 +33,7 @@ cd tts-announcement
 **Run the script:**
 
 ``` bash
-python3 announcement.py
+python main.py
 ```
 
 **The script will:**

@@ -19,7 +19,8 @@ This Python project uses OpenCV to perform real-time face detection. It utilizes
 ## Usage
 Run the script:
 ```sh
-python face_detection.py
+python face_detection.py #name of the program you saved it as.
+#change it to main.py if you download mine.
 ```
 - A window will open, displaying the video feed.
 - Faces detected will be highlighted with a green rectangle.

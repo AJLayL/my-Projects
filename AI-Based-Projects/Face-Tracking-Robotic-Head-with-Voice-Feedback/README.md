@@ -24,7 +24,7 @@ This project utilizes OpenCV for real-time face detection and controls servo mot
 Usage
 Run the script:
     ```
-    python face_tracking_robot.py
+    python main.py
     ```
 - The robotic head will move servos to follow faces.
 - A voice message will be played when a face is detected.

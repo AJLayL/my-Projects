@@ -74,6 +74,13 @@ QR_Access_System/
 
 ---
 ## How It Works
+- RUN this on CMD 1 by 1:
+```bash
+    python QR_security_system\Phone_Device_GUI\phone_device_gui.py
+    python QR_security_system\Security_Device\device_main.py
+    python QR_security_system\Security_Device\qr_generator.py
+
+```
 - main.py initializes the Tkinter GUI and sets a 5-second refresh timer to update the displayed image.
 - When the Visitor button is clicked, it calls qr_scan() from qr_code_scanner.py.
 - qr_scan() uses OpenCV to capture QR codes from the webcam.
