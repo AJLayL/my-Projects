@@ -43,7 +43,7 @@ class uuid_qr():
         file1.write(toFile)
         file1.close()
         
-        b.save('%s.png'%(name_save))
+        b.save('./QR_Access_system/%s.png'%(name_save))
         time.current_time()
 
 
@@ -51,3 +51,4 @@ multiple_qr=uuid_qr()
 t = perpetualTimer(20,multiple_qr.generate_qr)
 
 t.start()
+
