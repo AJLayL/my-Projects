@@ -46,7 +46,7 @@ python script.py
 ```
 QR_Access_System/
 |-- script.py          # Main application script
-|-- QR_Access_system/  # Stores generated QR codes and confirmation files
+|-- QR_Access_system/  # Stores generated QR codes and confirmation files, This utilises file sharing. different device same network. 
 |-- uuid_for_visitor.png # Generated visitor QR code
 ```
 
