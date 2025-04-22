@@ -24,6 +24,8 @@ class mainPage extends StatelessWidget {
     'esp32.device3',
   ];
 
+  const mainPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -60,7 +62,7 @@ class mainPage extends StatelessWidget {
 class deviceStatusScreen extends StatelessWidget {
   final String deviceName;
 
-  deviceStatusScreen({required this.deviceName});
+  const deviceStatusScreen({super.key, required this.deviceName});
 
   void _resetDevice(BuildContext context) {
     showDialog(
